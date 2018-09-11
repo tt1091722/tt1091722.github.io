@@ -3,6 +3,68 @@
   
     
     <entry>
+      <title>大量数据去重：Bitmap和布隆过滤器(Bloom Filter)</title>
+      <link href="/2018/09/11/%E5%A4%A7%E9%87%8F%E6%95%B0%E6%8D%AE%E5%8E%BB%E9%87%8D%EF%BC%9ABitmap%E5%92%8C%E5%B8%83%E9%9A%86%E8%BF%87%E6%BB%A4%E5%99%A8-Bloom-Filter/"/>
+      <url>/2018/09/11/%E5%A4%A7%E9%87%8F%E6%95%B0%E6%8D%AE%E5%8E%BB%E9%87%8D%EF%BC%9ABitmap%E5%92%8C%E5%B8%83%E9%9A%86%E8%BF%87%E6%BB%A4%E5%99%A8-Bloom-Filter/</url>
+      <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/zdxiq000/article/details/57626464" target="_blank" rel="external">https://blog.csdn.net/zdxiq000/article/details/57626464</a></p>]]></content>
+      
+      
+        <tags>
+            
+            <tag> bitmap </tag>
+            
+            <tag> bloom filter </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>设计模式</title>
+      <link href="/2018/09/11/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+      <url>/2018/09/11/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</url>
+      <content type="html"><![CDATA[<p><a href="https://www.cnblogs.com/tongkey/p/7170826.html" target="_blank" rel="external">23种设计模式总结</a></p><p><a href="https://www.cnblogs.com/foryang/p/5849402.html" target="_blank" rel="external">java 23种设计模式 深入理解</a></p>]]></content>
+      
+      
+        <tags>
+            
+            <tag> 设计模式 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>jvm</title>
+      <link href="/2018/09/11/jvm/"/>
+      <url>/2018/09/11/jvm/</url>
+      <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/wuzhilon88/article/details/49201891" target="_blank" rel="external">JVM调优总结</a></p>]]></content>
+      
+      
+        <tags>
+            
+            <tag> jvm </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>elasticsearch</title>
+      <link href="/2018/09/11/elasticsearch/"/>
+      <url>/2018/09/11/elasticsearch/</url>
+      <content type="html"><![CDATA[<p><a href="http://www.ruanyifeng.com/blog/2017/08/elasticsearch.html" target="_blank" rel="external">全文搜索引擎 Elasticsearch 入门教程</a></p>]]></content>
+      
+      
+        <tags>
+            
+            <tag> elasticsearch </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>mysql</title>
       <link href="/2018/09/11/mysql/"/>
       <url>/2018/09/11/mysql/</url>
@@ -73,13 +135,13 @@
       
         <tags>
             
-            <tag> redis </tag>
-            
             <tag> rabbitmq </tag>
             
             <tag> rocketmq </tag>
             
             <tag> mqtt </tag>
+            
+            <tag> redis </tag>
             
         </tags>
       
