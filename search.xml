@@ -3,6 +3,21 @@
   
     
     <entry>
+      <title>java basis</title>
+      <link href="/2018/09/11/java-basis/"/>
+      <url>/2018/09/11/java-basis/</url>
+      <content type="html"><![CDATA[<p><a href="https://www.cnblogs.com/daydaynobug/p/6752837.html" target="_blank" rel="external">Java并发之AQS详解</a><br><a href="https://www.cnblogs.com/princessd8251/articles/5187403.html" target="_blank" rel="external">AtomicStampedReference解决ABA问题</a><br><a href="https://www.cnblogs.com/ysocean/p/9054804.html" target="_blank" rel="external">由HashMap哈希算法引出的求余%和与运算&amp;转换问题</a><br><a href="https://www.cnblogs.com/acode/p/6306887.html" target="_blank" rel="external">Java的clone()：深复制与浅复制</a><br><a href="https://www.cnblogs.com/huangzejun/p/7908898.html" target="_blank" rel="external">Java 浅析 Thread.join()</a><br><a href="https://blog.csdn.net/crazyzxljing0621/article/details/56666418" target="_blank" rel="external">Thread.interrupt 快速解读</a><br><a href="https://www.cnblogs.com/slwenyi/p/6393808.html" target="_blank" rel="external">JAVA：CONCURRENTHASHMAP的锁分段技术</a><br><a href="https://www.cnblogs.com/cielosun/p/6582333.html" target="_blank" rel="external">Java单例模式(Singleton)以及实现</a><br><a href="https://blog.csdn.net/gavin_dyson/article/details/70832185" target="_blank" rel="external">【单例深思】枚举实现单例原理</a><br><a href="http://www.cnblogs.com/xrq730/p/6661692.html" target="_blank" rel="external">Cglib及其基本使用</a><br><a href="https://www.cnblogs.com/ygj0930/p/6542259.html" target="_blank" rel="external">Java动态代理之JDK实现和CGlib实现（简单易懂）</a><br><a href="https://www.cnblogs.com/dolphin0520/p/3778589.html" target="_blank" rel="external">String、StringBuilder以及StringBuffer</a><br><a href="https://www.cnblogs.com/hts-technology/p/7248370.html" target="_blank" rel="external">java继承中的初始化顺序</a><br><a href="https://www.cnblogs.com/Onlywjy/p/6938789.html" target="_blank" rel="external">java7增强的try语句关闭资源</a><br><a href="https://www.cnblogs.com/baixl/p/4170599.html" target="_blank" rel="external">io</a><br><a href="https://www.cnblogs.com/skywang12345/p/3324958.html" target="_blank" rel="external">Java hashCode() 和 equals()的若干问题解答</a><br><a href="https://www.cnblogs.com/areyouready/p/6803304.html" target="_blank" rel="external">ArrayList如何实现线程安全</a><br><a href="https://blog.csdn.net/u012859681/article/details/78206494" target="_blank" rel="external">为什么说ArrayList是线程不安全的？</a><br><a href="https://blog.csdn.net/pange1991/article/details/53860651" target="_blank" rel="external">Java线程的6种状态及切换(透彻讲解)</a></p>]]></content>
+      
+      
+        <tags>
+            
+            <tag> java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>mac安装多个版本jdk，自由切换</title>
       <link href="/2018/09/11/mac%E5%AE%89%E8%A3%85%E5%A4%9A%E4%B8%AA%E7%89%88%E6%9C%ACjdk%EF%BC%8C%E8%87%AA%E7%94%B1%E5%88%87%E6%8D%A2/"/>
       <url>/2018/09/11/mac%E5%AE%89%E8%A3%85%E5%A4%9A%E4%B8%AA%E7%89%88%E6%9C%ACjdk%EF%BC%8C%E8%87%AA%E7%94%B1%E5%88%87%E6%8D%A2/</url>
