@@ -21,7 +21,7 @@
       <title>markdown</title>
       <link href="/2018/11/07/markdown/"/>
       <url>/2018/11/07/markdown/</url>
-      <content type="html"><![CDATA[<p><a href="https://www.cnblogs.com/zhouyubo/p/8412840.html" target="_blank" rel="external">用Markdown快速排版一片文章</a></p>]]></content>
+      <content type="html"><![CDATA[<p>####<a href="https://www.cnblogs.com/zhouyubo/p/8412840.html" target="_blank" rel="external">用Markdown快速排版一片文章</a></p>]]></content>
       
       
         <tags>
@@ -36,7 +36,7 @@
       <title>zookeeper选举机制</title>
       <link href="/2018/11/07/zookeeper%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/"/>
       <url>/2018/11/07/zookeeper%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/</url>
-      <content type="html"><![CDATA[<p><a href="https://www.cnblogs.com/ASPNET2008/p/6421571.html" target="_blank" rel="external">理解zookeeper选举机制</a></p>]]></content>
+      <content type="html"><![CDATA[<p>####<a href="https://www.cnblogs.com/ASPNET2008/p/6421571.html" target="_blank" rel="external">理解zookeeper选举机制</a></p>]]></content>
       
       
         <tags>
@@ -51,7 +51,7 @@
       <title>nginx</title>
       <link href="/2018/11/05/nginx/"/>
       <url>/2018/11/05/nginx/</url>
-      <content type="html"><![CDATA[<p><a href="https://www.cnblogs.com/microtiger/p/7623858.html" target="_blank" rel="external">nginx 反向代理和负载均衡</a></p>]]></content>
+      <content type="html"><![CDATA[<p>####<a href="https://www.cnblogs.com/microtiger/p/7623858.html" target="_blank" rel="external">nginx 反向代理和负载均衡</a></p>]]></content>
       
       
         <tags>
@@ -83,7 +83,7 @@
       <title>设计模式</title>
       <link href="/2018/09/11/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
       <url>/2018/09/11/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</url>
-      <content type="html"><![CDATA[<p><a href="https://www.cnblogs.com/tongkey/p/7170826.html" target="_blank" rel="external">23种设计模式总结</a></p><p><a href="https://www.cnblogs.com/foryang/p/5849402.html" target="_blank" rel="external">java 23种设计模式 深入理解</a></p>]]></content>
+      <content type="html"><![CDATA[<p>####<a href="https://www.cnblogs.com/tongkey/p/7170826.html" target="_blank" rel="external">23种设计模式总结</a></p><p>####<a href="https://www.cnblogs.com/foryang/p/5849402.html" target="_blank" rel="external">java 23种设计模式 深入理解</a></p>]]></content>
       
       
         <tags>
@@ -98,7 +98,7 @@
       <title>jvm</title>
       <link href="/2018/09/11/jvm/"/>
       <url>/2018/09/11/jvm/</url>
-      <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/wuzhilon88/article/details/49201891" target="_blank" rel="external">JVM调优总结</a></p>]]></content>
+      <content type="html"><![CDATA[<p>####<a href="https://blog.csdn.net/wuzhilon88/article/details/49201891" target="_blank" rel="external">JVM调优总结</a></p>]]></content>
       
       
         <tags>
@@ -113,7 +113,7 @@
       <title>elasticsearch</title>
       <link href="/2018/09/11/elasticsearch/"/>
       <url>/2018/09/11/elasticsearch/</url>
-      <content type="html"><![CDATA[<p><a href="http://www.ruanyifeng.com/blog/2017/08/elasticsearch.html" target="_blank" rel="external">全文搜索引擎 Elasticsearch 入门教程</a></p>]]></content>
+      <content type="html"><![CDATA[<p>####<a href="http://www.ruanyifeng.com/blog/2017/08/elasticsearch.html" target="_blank" rel="external">全文搜索引擎 Elasticsearch 入门教程</a></p>]]></content>
       
       
         <tags>
@@ -128,7 +128,7 @@
       <title>mysql</title>
       <link href="/2018/09/11/mysql/"/>
       <url>/2018/09/11/mysql/</url>
-      <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/z69183787/article/details/53144681?locationNum=4&amp;fps=1" target="_blank" rel="external">useAffectedRows</a></p><p><a href="https://www.cnblogs.com/liyasong/p/sql_in_exists.html" target="_blank" rel="external">in exists</a></p>]]></content>
+      <content type="html"><![CDATA[<p>####<a href="https://blog.csdn.net/z69183787/article/details/53144681?locationNum=4&amp;fps=1" target="_blank" rel="external">useAffectedRows</a></p><p>####<a href="https://www.cnblogs.com/liyasong/p/sql_in_exists.html" target="_blank" rel="external">in exists</a></p>]]></content>
       
       
         <tags>
@@ -143,7 +143,7 @@
       <title>tcc</title>
       <link href="/2018/09/11/tcc/"/>
       <url>/2018/09/11/tcc/</url>
-      <content type="html"><![CDATA[<p><a href="http://www.iocoder.cn/categories/TCC-Transaction/?github" target="_blank" rel="external">TCC-Transaction 源码分析</a></p>]]></content>
+      <content type="html"><![CDATA[<p>####<a href="http://www.iocoder.cn/categories/TCC-Transaction/?github" target="_blank" rel="external">TCC-Transaction 源码分析</a></p>]]></content>
       
       
         <tags>
@@ -160,7 +160,7 @@
       <title>git</title>
       <link href="/2018/09/11/git/"/>
       <url>/2018/09/11/git/</url>
-      <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/baisemaque/article/details/53404293" target="_blank" rel="external">error setting certificate verify locations</a></p>]]></content>
+      <content type="html"><![CDATA[<p>####<a href="https://blog.csdn.net/baisemaque/article/details/53404293" target="_blank" rel="external">error setting certificate verify locations</a></p>]]></content>
       
       
         <tags>
@@ -175,7 +175,7 @@
       <title>redis</title>
       <link href="/2018/09/11/redis/"/>
       <url>/2018/09/11/redis/</url>
-      <content type="html"><![CDATA[<p><a href="https://www.cnblogs.com/yuanermen/p/5717885.html" target="_blank" rel="external">Redis 3.2.1集群搭建</a></p><p><a href="https://blog.csdn.net/ljbmxsm/article/details/76598489" target="_blank" rel="external">Redis4.0.X 官方集群方案搭建</a></p><p><a href="https://blog.csdn.net/hjm4702192/article/details/80518856" target="_blank" rel="external">Redis 总结精讲 看一篇成高手系统-4</a></p><p><a href="https://www.cnblogs.com/fidelQuan/p/4543387.html" target="_blank" rel="external">缓存穿透与缓存雪崩</a></p><p><a href="http://www.cnblogs.com/zhangweizhong/p/6258797.html" target="_blank" rel="external">Redis总结（五）缓存雪崩和缓存穿透等问题</a></p>]]></content>
+      <content type="html"><![CDATA[<p>####<a href="https://www.cnblogs.com/yuanermen/p/5717885.html" target="_blank" rel="external">Redis 3.2.1集群搭建</a></p><p>####<a href="https://blog.csdn.net/ljbmxsm/article/details/76598489" target="_blank" rel="external">Redis4.0.X 官方集群方案搭建</a></p><p>####<a href="https://blog.csdn.net/hjm4702192/article/details/80518856" target="_blank" rel="external">Redis 总结精讲 看一篇成高手系统-4</a></p><p>####<a href="https://www.cnblogs.com/fidelQuan/p/4543387.html" target="_blank" rel="external">缓存穿透与缓存雪崩</a></p><p>####<a href="http://www.cnblogs.com/zhangweizhong/p/6258797.html" target="_blank" rel="external">Redis总结（五）缓存雪崩和缓存穿透等问题</a></p>]]></content>
       
       
         <tags>
@@ -190,7 +190,7 @@
       <title>mq</title>
       <link href="/2018/09/11/mq/"/>
       <url>/2018/09/11/mq/</url>
-      <content type="html"><![CDATA[<p><a href="https://www.cnblogs.com/LipeiNet/category/896408.html" target="_blank" rel="external">rabbitMQ</a></p><p><a href="http://jm.taobao.org/2017/01/12/rocketmq-quick-start-in-10-minutes/" target="_blank" rel="external">十分钟入门RocketMQ</a></p><p><a href="https://www.jianshu.com/p/e1915db8e5e2" target="_blank" rel="external">MQTT深入浅出系列（一）</a></p><p><a href="https://www.jianshu.com/p/36ec239496aa" target="_blank" rel="external">MQTT深入浅出系列（二）</a></p><p><a href="https://mcxiaoke.gitbooks.io/mqtt-cn/content/" target="_blank" rel="external">MQTT协议中文版</a></p><p><a href="https://www.cnblogs.com/Leo_wl/p/6582663.html" target="_blank" rel="external">RedisMQ</a></p>]]></content>
+      <content type="html"><![CDATA[<p>####<a href="https://www.cnblogs.com/LipeiNet/category/896408.html" target="_blank" rel="external">rabbitMQ</a></p><p>####<a href="http://jm.taobao.org/2017/01/12/rocketmq-quick-start-in-10-minutes/" target="_blank" rel="external">十分钟入门RocketMQ</a></p><p>####<a href="https://www.jianshu.com/p/e1915db8e5e2" target="_blank" rel="external">MQTT深入浅出系列（一）</a></p><p>####<a href="https://www.jianshu.com/p/36ec239496aa" target="_blank" rel="external">MQTT深入浅出系列（二）</a></p><p>####<a href="https://mcxiaoke.gitbooks.io/mqtt-cn/content/" target="_blank" rel="external">MQTT协议中文版</a></p><p>####<a href="https://www.cnblogs.com/Leo_wl/p/6582663.html" target="_blank" rel="external">RedisMQ</a></p>]]></content>
       
       
         <tags>
@@ -211,8 +211,14 @@
       <title>sort</title>
       <link href="/2018/09/11/sort/"/>
       <url>/2018/09/11/sort/</url>
-      <content type="html"><![CDATA[<p><a href="https://www.cnblogs.com/eniac12/p/5329396.html" target="_blank" rel="external">常用排序算法总结(一)</a></p><p><a href="http://www.cnblogs.com/eniac12/p/5332117.html" target="_blank" rel="external">常用排序算法总结(二)</a></p><p><a href="https://www.cnblogs.com/chengxiao/p/6129630.html" target="_blank" rel="external">图解排序算法(三)之堆排序</a></p><p><a href="http://www.cnblogs.com/chengxiao/p/6262208.html" target="_blank" rel="external">图解排序算法(五)之快速排序——三数取中法</a></p>]]></content>
+      <content type="html"><![CDATA[<p>####<a href="https://www.cnblogs.com/eniac12/p/5329396.html" target="_blank" rel="external">常用排序算法总结(一)</a></p><p>####<a href="http://www.cnblogs.com/eniac12/p/5332117.html" target="_blank" rel="external">常用排序算法总结(二)</a></p><p>####<a href="https://www.cnblogs.com/chengxiao/p/6129630.html" target="_blank" rel="external">图解排序算法(三)之堆排序</a></p><p>####<a href="http://www.cnblogs.com/chengxiao/p/6262208.html" target="_blank" rel="external">图解排序算法(五)之快速排序——三数取中法</a></p>]]></content>
       
+      
+        <tags>
+            
+            <tag> sort </tag>
+            
+        </tags>
       
     </entry>
     
@@ -220,7 +226,7 @@
       <title>spring</title>
       <link href="/2018/09/11/spring/"/>
       <url>/2018/09/11/spring/</url>
-      <content type="html"><![CDATA[<p><a href="http://geeekr.com/read-spring-source-1-how-to-load-bean/" target="_blank" rel="external">看看Spring的源码（一）——Bean加载过程</a></p><p><a href="https://www.cnblogs.com/hujiapeng/p/5765636.html" target="_blank" rel="external">Spring MVC处理请求流程</a></p><p><a href="https://www.cnblogs.com/RunForLove/p/5688731.html" target="_blank" rel="external">SpringMVC启动过程详解（li）</a></p><p><a href="https://www.cnblogs.com/mingziday/p/4987058.html" target="_blank" rel="external">Spring MVC的启动过程</a></p><p><a href="https://www.cnblogs.com/daxin/p/3381793.html" target="_blank" rel="external">SpringMVC 利用AbstractRoutingDataSource实现动态数据源切换</a></p><p><a href="https://www.cnblogs.com/magicalSam/p/7198420.html" target="_blank" rel="external">@ControllerAdvice 拦截异常并统一处理</a></p>]]></content>
+      <content type="html"><![CDATA[<p>####<a href="http://geeekr.com/read-spring-source-1-how-to-load-bean/" target="_blank" rel="external">看看Spring的源码（一）——Bean加载过程</a></p><p>####<a href="https://www.cnblogs.com/hujiapeng/p/5765636.html" target="_blank" rel="external">Spring MVC处理请求流程</a></p><p>####<a href="https://www.cnblogs.com/RunForLove/p/5688731.html" target="_blank" rel="external">SpringMVC启动过程详解（li）</a></p><p>####<a href="https://www.cnblogs.com/mingziday/p/4987058.html" target="_blank" rel="external">Spring MVC的启动过程</a></p><p>####<a href="https://www.cnblogs.com/daxin/p/3381793.html" target="_blank" rel="external">SpringMVC 利用AbstractRoutingDataSource实现动态数据源切换</a></p><p>####<a href="https://www.cnblogs.com/magicalSam/p/7198420.html" target="_blank" rel="external">@ControllerAdvice 拦截异常并统一处理</a></p>]]></content>
       
       
         <tags>
@@ -235,7 +241,7 @@
       <title>java basis</title>
       <link href="/2018/09/11/java-basis/"/>
       <url>/2018/09/11/java-basis/</url>
-      <content type="html"><![CDATA[<p><a href="https://www.cnblogs.com/daydaynobug/p/6752837.html" target="_blank" rel="external">Java并发之AQS详解</a></p><p><a href="https://www.cnblogs.com/princessd8251/articles/5187403.html" target="_blank" rel="external">AtomicStampedReference解决ABA问题</a></p><p><a href="https://www.cnblogs.com/ysocean/p/9054804.html" target="_blank" rel="external">由HashMap哈希算法引出的求余%和与运算&amp;转换问题</a></p><p><a href="https://www.cnblogs.com/acode/p/6306887.html" target="_blank" rel="external">Java的clone()：深复制与浅复制</a></p><p><a href="https://www.cnblogs.com/huangzejun/p/7908898.html" target="_blank" rel="external">Java 浅析 Thread.join()</a></p><p><a href="https://blog.csdn.net/crazyzxljing0621/article/details/56666418" target="_blank" rel="external">Thread.interrupt 快速解读</a></p><p><a href="https://www.cnblogs.com/slwenyi/p/6393808.html" target="_blank" rel="external">JAVA：CONCURRENTHASHMAP的锁分段技术</a></p><p><a href="https://www.cnblogs.com/cielosun/p/6582333.html" target="_blank" rel="external">Java单例模式(Singleton)以及实现</a></p><p><a href="https://blog.csdn.net/gavin_dyson/article/details/70832186" target="_blank" rel="external">【单例深思】枚举实现单例原理</a></p><p><a href="http://www.cnblogs.com/xrq730/p/6661692.html" target="_blank" rel="external">Cglib及其基本使用</a></p><p><a href="https://www.cnblogs.com/ygj0930/p/6542259.html" target="_blank" rel="external">Java动态代理之JDK实现和CGlib实现（简单易懂）</a></p><p><a href="https://www.cnblogs.com/dolphin0520/p/3778589.html" target="_blank" rel="external">String、StringBuilder以及StringBuffer</a></p><p><a href="https://www.cnblogs.com/hts-technology/p/7248370.html" target="_blank" rel="external">java继承中的初始化顺序</a></p><p><a href="https://www.cnblogs.com/Onlywjy/p/6938789.html" target="_blank" rel="external">java7增强的try语句关闭资源</a></p><p><a href="https://www.cnblogs.com/baixl/p/4170599.html" target="_blank" rel="external">io</a></p><p><a href="https://www.cnblogs.com/skywang12345/p/3324958.html" target="_blank" rel="external">Java hashCode() 和 equals()的若干问题解答</a></p><p><a href="https://www.cnblogs.com/areyouready/p/6803304.html" target="_blank" rel="external">ArrayList如何实现线程安全</a></p><p><a href="https://blog.csdn.net/u012859681/article/details/78206494" target="_blank" rel="external">为什么说ArrayList是线程不安全的？</a></p><p><a href="https://blog.csdn.net/pange1991/article/details/53860651" target="_blank" rel="external">Java线程的6种状态及切换(透彻讲解)</a></p><p><a href="https://www.cnblogs.com/franson-2016/p/5593080.html" target="_blank" rel="external">Java中Lambda表达式的使用</a></p>]]></content>
+      <content type="html"><![CDATA[<p>####<a href="https://www.cnblogs.com/daydaynobug/p/6752837.html" target="_blank" rel="external">Java并发之AQS详解</a></p><p>####<a href="https://www.cnblogs.com/princessd8251/articles/5187403.html" target="_blank" rel="external">AtomicStampedReference解决ABA问题</a></p><p>####<a href="https://www.cnblogs.com/ysocean/p/9054804.html" target="_blank" rel="external">由HashMap哈希算法引出的求余%和与运算&amp;转换问题</a></p><p>####<a href="https://www.cnblogs.com/acode/p/6306887.html" target="_blank" rel="external">Java的clone()：深复制与浅复制</a></p><p>####<a href="https://www.cnblogs.com/huangzejun/p/7908898.html" target="_blank" rel="external">Java 浅析 Thread.join()</a></p><p>####<a href="https://blog.csdn.net/crazyzxljing0621/article/details/56666418" target="_blank" rel="external">Thread.interrupt 快速解读</a></p><p>####<a href="https://www.cnblogs.com/slwenyi/p/6393808.html" target="_blank" rel="external">JAVA：CONCURRENTHASHMAP的锁分段技术</a></p><p>####<a href="https://www.cnblogs.com/cielosun/p/6582333.html" target="_blank" rel="external">Java单例模式(Singleton)以及实现</a></p><p>####<a href="https://blog.csdn.net/gavin_dyson/article/details/70832186" target="_blank" rel="external">【单例深思】枚举实现单例原理</a></p><p>####<a href="http://www.cnblogs.com/xrq730/p/6661692.html" target="_blank" rel="external">Cglib及其基本使用</a></p><p>####<a href="https://www.cnblogs.com/ygj0930/p/6542259.html" target="_blank" rel="external">Java动态代理之JDK实现和CGlib实现（简单易懂）</a></p><p>####<a href="https://www.cnblogs.com/dolphin0520/p/3778589.html" target="_blank" rel="external">String、StringBuilder以及StringBuffer</a></p><p>####<a href="https://www.cnblogs.com/hts-technology/p/7248370.html" target="_blank" rel="external">java继承中的初始化顺序</a></p><p>####<a href="https://www.cnblogs.com/Onlywjy/p/6938789.html" target="_blank" rel="external">java7增强的try语句关闭资源</a></p><p>####<a href="https://www.cnblogs.com/baixl/p/4170599.html" target="_blank" rel="external">io</a></p><p>####<a href="https://www.cnblogs.com/skywang12345/p/3324958.html" target="_blank" rel="external">Java hashCode() 和 equals()的若干问题解答</a></p><p>####<a href="https://www.cnblogs.com/areyouready/p/6803304.html" target="_blank" rel="external">ArrayList如何实现线程安全</a></p><p>####<a href="https://blog.csdn.net/u012859681/article/details/78206494" target="_blank" rel="external">为什么说ArrayList是线程不安全的？</a></p><p>####<a href="https://blog.csdn.net/pange1991/article/details/53860651" target="_blank" rel="external">Java线程的6种状态及切换(透彻讲解)</a></p><p>####<a href="https://www.cnblogs.com/franson-2016/p/5593080.html" target="_blank" rel="external">Java中Lambda表达式的使用</a></p>]]></content>
       
       
         <tags>
