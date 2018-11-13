@@ -3,6 +3,21 @@
   
     
     <entry>
+      <title>http</title>
+      <link href="/2018/11/13/http/"/>
+      <url>/2018/11/13/http/</url>
+      <content type="html"><![CDATA[<h4 id="一次完整的HTTP请求过程"><a href="#一次完整的HTTP请求过程" class="headerlink" title="一次完整的HTTP请求过程"></a><a href="https://www.cnblogs.com/engeng/articles/5959335.html" target="_blank" rel="external">一次完整的HTTP请求过程</a></h4><h4 id="认识一次完整的HTTP请求过程"><a href="#认识一次完整的HTTP请求过程" class="headerlink" title="认识一次完整的HTTP请求过程"></a><a href="https://www.aliyun.com/zixun/wenji/1253506.html" target="_blank" rel="external">认识一次完整的HTTP请求过程</a></h4><h4 id="HTTP的长连接和短连接"><a href="#HTTP的长连接和短连接" class="headerlink" title="HTTP的长连接和短连接"></a><a href="https://www.cnblogs.com/cswuyg/p/3653263.html" target="_blank" rel="external">HTTP的长连接和短连接</a></h4>]]></content>
+      
+      
+        <tags>
+            
+            <tag> http </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>sql joins</title>
       <link href="/2018/11/13/sql-joins/"/>
       <url>/2018/11/13/sql-joins/</url>
