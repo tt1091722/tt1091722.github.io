@@ -287,13 +287,13 @@
       
         <tags>
             
-            <tag> redis </tag>
-            
             <tag> rabbitmq </tag>
             
             <tag> rocketmq </tag>
             
             <tag> mqtt </tag>
+            
+            <tag> redis </tag>
             
         </tags>
       
