@@ -1,190 +1,250 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="keyword"  content="">
-    <link rel="shortcut icon" href="/img/favicon.ico">
+  <meta charset="utf-8">
+  
+  <title>java多线程 | pv&#39;s Blog</title>
+  <meta name="author" content="positive vibes">
+  
+  <meta name="description" content="Java多线程1：进程与线程概述Java多线程2：Thread中的实例方法Java多线程3：Thread中的静态方法Java多线程4：synchronized锁机制Java多线程5：synchronized锁方法块Java多线程6：synchronized锁定类方法、volatile关键字及其他Ja">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <title>
-        
-        java多线程 - undefined
-        
-    </title>
+  <meta property="og:title" content="java多线程"/>
+  <meta property="og:site_name" content="pv&#39;s Blog"/>
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/aircloud.css">
-    <link rel="stylesheet" href="/css/gitment.css">
-    <!--<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">-->
-    <link href="//at.alicdn.com/t/font_620856_pl6z7sid89qkt9.css" rel="stylesheet" type="text/css">
-    <!-- ga & ba script hoook -->
-    <script></script>
+  
+    <meta property="og:image" content=""/>
+  
+
+  
+    <link rel="alternative" href="/atom.xml" title="pv&#39;s Blog" type="application/atom+xml">
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">  
+  <link rel="stylesheet" href="/css/sidenav.css" media="screen" type="text/css">  
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
 </head>
 
-<body>
+<body id="body" data-spy="scroll" data-target=".toc">
+  <div class="container" id="container">
+	<div class="content">
+	  <div class="page-header">		
+  <h1><a class="brand" href="/">pv&#39;s Blog</a><span class="split"></span><span class="title">java多线程</span><span class="date" id="title-date"><i class="fa fa-clock-o"></i> 2018-11-08</span></h1>
+</div>		
 
-<div class="site-nav-toggle" id="site-nav-toggle">
-    <button>
-        <span class="btn-bar"></span>
-        <span class="btn-bar"></span>
-        <span class="btn-bar"></span>
-    </button>
+<div class="row page">
+  <!-- cols -->	
+  
+  
+
+  
+	<div class="col-md-12">
+	  
+
+	  <!-- content -->
+	  <h4 id="Java多线程1：进程与线程概述"><a href="#Java多线程1：进程与线程概述" class="headerlink" title="Java多线程1：进程与线程概述"></a><a href="https://www.cnblogs.com/xrq730/p/4850883.html" target="_blank" rel="external">Java多线程1：进程与线程概述</a></h4><h4 id="Java多线程2：Thread中的实例方法"><a href="#Java多线程2：Thread中的实例方法" class="headerlink" title="Java多线程2：Thread中的实例方法"></a><a href="https://www.cnblogs.com/xrq730/p/4851233.html" target="_blank" rel="external">Java多线程2：Thread中的实例方法</a></h4><h4 id="Java多线程3：Thread中的静态方法"><a href="#Java多线程3：Thread中的静态方法" class="headerlink" title="Java多线程3：Thread中的静态方法"></a><a href="https://www.cnblogs.com/xrq730/p/4851344.html" target="_blank" rel="external">Java多线程3：Thread中的静态方法</a></h4><h4 id="Java多线程4：synchronized锁机制"><a href="#Java多线程4：synchronized锁机制" class="headerlink" title="Java多线程4：synchronized锁机制"></a><a href="https://www.cnblogs.com/xrq730/p/4851350.html" target="_blank" rel="external">Java多线程4：synchronized锁机制</a></h4><h4 id="Java多线程5：synchronized锁方法块"><a href="#Java多线程5：synchronized锁方法块" class="headerlink" title="Java多线程5：synchronized锁方法块"></a><a href="https://www.cnblogs.com/xrq730/p/4851530.html" target="_blank" rel="external">Java多线程5：synchronized锁方法块</a></h4><h4 id="Java多线程6：synchronized锁定类方法、volatile关键字及其他"><a href="#Java多线程6：synchronized锁定类方法、volatile关键字及其他" class="headerlink" title="Java多线程6：synchronized锁定类方法、volatile关键字及其他"></a><a href="https://www.cnblogs.com/xrq730/p/4853578.html" target="_blank" rel="external">Java多线程6：synchronized锁定类方法、volatile关键字及其他</a></h4><h4 id="Java多线程7：死锁"><a href="#Java多线程7：死锁" class="headerlink" title="Java多线程7：死锁"></a><a href="https://www.cnblogs.com/xrq730/p/4853713.html" target="_blank" rel="external">Java多线程7：死锁</a></h4><h4 id="Java多线程8：wait-和notify-notifyAll"><a href="#Java多线程8：wait-和notify-notifyAll" class="headerlink" title="Java多线程8：wait()和notify()/notifyAll()"></a><a href="https://www.cnblogs.com/xrq730/p/4853932.html" target="_blank" rel="external">Java多线程8：wait()和notify()/notifyAll()</a></h4><h4 id="Java多线程9：ThreadLocal源码剖析"><a href="#Java多线程9：ThreadLocal源码剖析" class="headerlink" title="Java多线程9：ThreadLocal源码剖析"></a><a href="https://www.cnblogs.com/xrq730/p/4854813.html" target="_blank" rel="external">Java多线程9：ThreadLocal源码剖析</a></h4><h4 id="Java多线程10：ThreadLocal的作用及使用"><a href="#Java多线程10：ThreadLocal的作用及使用" class="headerlink" title="Java多线程10：ThreadLocal的作用及使用"></a><a href="https://www.cnblogs.com/xrq730/p/4854820.html" target="_blank" rel="external">Java多线程10：ThreadLocal的作用及使用</a></h4><h4 id="Java多线程11：ReentrantLock的使用和Condition"><a href="#Java多线程11：ReentrantLock的使用和Condition" class="headerlink" title="Java多线程11：ReentrantLock的使用和Condition"></a><a href="https://www.cnblogs.com/xrq730/p/4855155.html" target="_blank" rel="external">Java多线程11：ReentrantLock的使用和Condition</a></h4><h4 id="Java多线程12：ReentrantLock中的方法"><a href="#Java多线程12：ReentrantLock中的方法" class="headerlink" title="Java多线程12：ReentrantLock中的方法"></a><a href="https://www.cnblogs.com/xrq730/p/4855538.html" target="_blank" rel="external">Java多线程12：ReentrantLock中的方法</a></h4><h4 id="Java多线程13：读写锁和两种同步方式的对比"><a href="#Java多线程13：读写锁和两种同步方式的对比" class="headerlink" title="Java多线程13：读写锁和两种同步方式的对比"></a><a href="https://www.cnblogs.com/xrq730/p/4855631.html" target="_blank" rel="external">Java多线程13：读写锁和两种同步方式的对比</a></h4><h4 id="Java多线程14：生产者-消费者模型"><a href="#Java多线程14：生产者-消费者模型" class="headerlink" title="Java多线程14：生产者/消费者模型"></a><a href="https://www.cnblogs.com/xrq730/p/4855663.html" target="_blank" rel="external">Java多线程14：生产者/消费者模型</a></h4><h4 id="Java多线程15：Queue、BlockingQueue以及利用BlockingQueue实现生产者-消费者模型"><a href="#Java多线程15：Queue、BlockingQueue以及利用BlockingQueue实现生产者-消费者模型" class="headerlink" title="Java多线程15：Queue、BlockingQueue以及利用BlockingQueue实现生产者/消费者模型"></a><a href="https://www.cnblogs.com/xrq730/p/4855857.html" target="_blank" rel="external">Java多线程15：Queue、BlockingQueue以及利用BlockingQueue实现生产者/消费者模型</a></h4><h4 id="Java多线程16：线程组"><a href="#Java多线程16：线程组" class="headerlink" title="Java多线程16：线程组"></a><a href="https://www.cnblogs.com/xrq730/p/4856072.html" target="_blank" rel="external">Java多线程16：线程组</a></h4><h4 id="Java多线程17：中断机制"><a href="#Java多线程17：中断机制" class="headerlink" title="Java多线程17：中断机制"></a><a href="https://www.cnblogs.com/xrq730/p/4856361.html" target="_blank" rel="external">Java多线程17：中断机制</a></h4><h4 id="Java多线程18：线程池"><a href="#Java多线程18：线程池" class="headerlink" title="Java多线程18：线程池"></a><a href="https://www.cnblogs.com/xrq730/p/4856453.html" target="_blank" rel="external">Java多线程18：线程池</a></h4><h4 id="Java多线程19：定时器Timer"><a href="#Java多线程19：定时器Timer" class="headerlink" title="Java多线程19：定时器Timer"></a><a href="https://www.cnblogs.com/xrq730/p/4856985.html" target="_blank" rel="external">Java多线程19：定时器Timer</a></h4><h4 id="Java多线程20：多线程下的其他组件之CountDownLatch、Semaphore、Exchanger"><a href="#Java多线程20：多线程下的其他组件之CountDownLatch、Semaphore、Exchanger" class="headerlink" title="Java多线程20：多线程下的其他组件之CountDownLatch、Semaphore、Exchanger"></a><a href="https://www.cnblogs.com/xrq730/p/4869671.html" target="_blank" rel="external">Java多线程20：多线程下的其他组件之CountDownLatch、Semaphore、Exchanger</a></h4><h4 id="Java多线程21：多线程下的其他组件之CyclicBarrier、Callable、Future和FutureTask"><a href="#Java多线程21：多线程下的其他组件之CyclicBarrier、Callable、Future和FutureTask" class="headerlink" title="Java多线程21：多线程下的其他组件之CyclicBarrier、Callable、Future和FutureTask"></a><a href="https://www.cnblogs.com/xrq730/p/4872722.html" target="_blank" rel="external">Java多线程21：多线程下的其他组件之CyclicBarrier、Callable、Future和FutureTask</a></h4>	  
+
+	  <div>
+  		<center>
+		  <div class="pagination">
+<ul class="pagination">
+	
+	
+	
+	
+	
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+			
+		
+	
+		
+			
+			
+			
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+	
+	
+		<li class="prev"><a href="/2018/11/12/vim/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
+	
+	<li><a href="/"><i class="fa fa-archive"></i>Home</a></li>
+	
+		<li class="next"><a href="/2018/11/07/markdown/" class="alignright next">next<i class="fa fa-arrow-circle-o-right"></i></a></li>
+	
+</ul>
 </div>
 
-<div class="index-about">
-    <i> One day you&#39;ll be cool </i>
-</div>
+		</center>
+	  </div>
+	  
+	</div> <!-- col-md-9/col-md-12 -->
+	
+  </div><!-- row -->
 
-<div class="index-container">
-    
-    <div class="index-left">
-        
-<div class="nav" id="nav">
-    <div class="avatar-name">
-        <div class="avatar">
-            <img src="/img/avatar.jpg" />
-        </div>
-        <div class="name">
-            <i>tt0380817</i>
-        </div>
-    </div>
-    <div class="contents" id="nav-content">
-        <ul>
-            <li >
-                <a href="/">
-                    <i class="iconfont icon-shouye1"></i>
-                    <span>主页</span>
-                </a>
-            </li>
-            <li >
-                <a href="/tags">
-                    <i class="iconfont icon-biaoqian1"></i>
-                    <span>标签</span>
-                </a>
-            </li>
-            <li >
-                <a href="/archives">
-                    <i class="iconfont icon-guidang2"></i>
-                    <span>存档</span>
-                </a>
-            </li>
-            <li >
-                <a href="/about/">
-                    <i class="iconfont icon-guanyu2"></i>
-                    <span>关于</span>
-                </a>
-            </li>
-            
-            <li>
-                <a id="search">
-                    <i class="iconfont icon-sousuo1"></i>
-                    <span>搜索</span>
-                </a>
-            </li>
-            
-        </ul>
-    </div>
-    
-        <div id="toc" class="toc-article">
-    <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#Java多线程1：进程与线程概述"><span class="toc-text">Java多线程1：进程与线程概述</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Java多线程2：Thread中的实例方法"><span class="toc-text">Java多线程2：Thread中的实例方法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Java多线程3：Thread中的静态方法"><span class="toc-text">Java多线程3：Thread中的静态方法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Java多线程4：synchronized锁机制"><span class="toc-text">Java多线程4：synchronized锁机制</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Java多线程5：synchronized锁方法块"><span class="toc-text">Java多线程5：synchronized锁方法块</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Java多线程6：synchronized锁定类方法、volatile关键字及其他"><span class="toc-text">Java多线程6：synchronized锁定类方法、volatile关键字及其他</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Java多线程7：死锁"><span class="toc-text">Java多线程7：死锁</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Java多线程8：wait-和notify-notifyAll"><span class="toc-text">Java多线程8：wait()和notify()/notifyAll()</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Java多线程9：ThreadLocal源码剖析"><span class="toc-text">Java多线程9：ThreadLocal源码剖析</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Java多线程10：ThreadLocal的作用及使用"><span class="toc-text">Java多线程10：ThreadLocal的作用及使用</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Java多线程11：ReentrantLock的使用和Condition"><span class="toc-text">Java多线程11：ReentrantLock的使用和Condition</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Java多线程12：ReentrantLock中的方法"><span class="toc-text">Java多线程12：ReentrantLock中的方法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Java多线程13：读写锁和两种同步方式的对比"><span class="toc-text">Java多线程13：读写锁和两种同步方式的对比</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Java多线程14：生产者-消费者模型"><span class="toc-text">Java多线程14：生产者/消费者模型</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Java多线程15：Queue、BlockingQueue以及利用BlockingQueue实现生产者-消费者模型"><span class="toc-text">Java多线程15：Queue、BlockingQueue以及利用BlockingQueue实现生产者/消费者模型</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Java多线程16：线程组"><span class="toc-text">Java多线程16：线程组</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Java多线程17：中断机制"><span class="toc-text">Java多线程17：中断机制</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Java多线程18：线程池"><span class="toc-text">Java多线程18：线程池</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Java多线程19：定时器Timer"><span class="toc-text">Java多线程19：定时器Timer</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Java多线程20：多线程下的其他组件之CountDownLatch、Semaphore、Exchanger"><span class="toc-text">Java多线程20：多线程下的其他组件之CountDownLatch、Semaphore、Exchanger</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Java多线程21：多线程下的其他组件之CyclicBarrier、Callable、Future和FutureTask"><span class="toc-text">Java多线程21：多线程下的其他组件之CyclicBarrier、Callable、Future和FutureTask</span></a></li></ol>
-</div>
-    
-</div>
+	</div>
+  </div>
+  <div class="container-narrow">
+	<footer> <p>
+  &copy; 2019 positive vibes
+  
+      with help from <a href="http://zespia.tw/hexo/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-wixo/">Wixo</a>.    
+</p> </footer>
+  </div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.tableofcontents.min.js"></script>
+<script src="/js/tocgenerator.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/search.js"></script> 
 
 
-<div class="search-field" id="search-field">
-    <div class="search-container">
-        <div class="search-input">
-            <span id="esc-search"> <i class="icon-fanhui iconfont"></i></span>
-            <input id="search-input"/>
-            <span id="begin-search">搜索</span>
-        </div>
-        <div class="search-result-container" id="search-result-container">
-
-        </div>
-    </div>
-</div>
-        <div class="index-about-mobile">
-            <i> One day you&#39;ll be cool </i>
-        </div>
-    </div>
-    
-    <div class="index-middle">
-        <!-- Main Content -->
-        
 
 
-<div class="post-container">
-    <div class="post-title">
-        java多线程
-    </div>
-
-    <div class="post-meta">
-        <span class="attr">发布于：<span>2018-11-08 13:27:23</span></span>
-        
-        <span class="attr">标签：/
-        
-        <a class="tag" href="/tags/#java多线程" title="java多线程">java多线程</a>
-        <span>/</span>
-        
-        
-        </span>
-        <span class="attr">访问：<span id="busuanzi_value_page_pv"></span>
-</span>
-</span>
-    </div>
-    <div class="post-content ">
-        <h4 id="Java多线程1：进程与线程概述"><a href="#Java多线程1：进程与线程概述" class="headerlink" title="Java多线程1：进程与线程概述"></a><a href="https://www.cnblogs.com/xrq730/p/4850883.html" target="_blank" rel="external">Java多线程1：进程与线程概述</a></h4><h4 id="Java多线程2：Thread中的实例方法"><a href="#Java多线程2：Thread中的实例方法" class="headerlink" title="Java多线程2：Thread中的实例方法"></a><a href="https://www.cnblogs.com/xrq730/p/4851233.html" target="_blank" rel="external">Java多线程2：Thread中的实例方法</a></h4><h4 id="Java多线程3：Thread中的静态方法"><a href="#Java多线程3：Thread中的静态方法" class="headerlink" title="Java多线程3：Thread中的静态方法"></a><a href="https://www.cnblogs.com/xrq730/p/4851344.html" target="_blank" rel="external">Java多线程3：Thread中的静态方法</a></h4><h4 id="Java多线程4：synchronized锁机制"><a href="#Java多线程4：synchronized锁机制" class="headerlink" title="Java多线程4：synchronized锁机制"></a><a href="https://www.cnblogs.com/xrq730/p/4851350.html" target="_blank" rel="external">Java多线程4：synchronized锁机制</a></h4><h4 id="Java多线程5：synchronized锁方法块"><a href="#Java多线程5：synchronized锁方法块" class="headerlink" title="Java多线程5：synchronized锁方法块"></a><a href="https://www.cnblogs.com/xrq730/p/4851530.html" target="_blank" rel="external">Java多线程5：synchronized锁方法块</a></h4><h4 id="Java多线程6：synchronized锁定类方法、volatile关键字及其他"><a href="#Java多线程6：synchronized锁定类方法、volatile关键字及其他" class="headerlink" title="Java多线程6：synchronized锁定类方法、volatile关键字及其他"></a><a href="https://www.cnblogs.com/xrq730/p/4853578.html" target="_blank" rel="external">Java多线程6：synchronized锁定类方法、volatile关键字及其他</a></h4><h4 id="Java多线程7：死锁"><a href="#Java多线程7：死锁" class="headerlink" title="Java多线程7：死锁"></a><a href="https://www.cnblogs.com/xrq730/p/4853713.html" target="_blank" rel="external">Java多线程7：死锁</a></h4><h4 id="Java多线程8：wait-和notify-notifyAll"><a href="#Java多线程8：wait-和notify-notifyAll" class="headerlink" title="Java多线程8：wait()和notify()/notifyAll()"></a><a href="https://www.cnblogs.com/xrq730/p/4853932.html" target="_blank" rel="external">Java多线程8：wait()和notify()/notifyAll()</a></h4><h4 id="Java多线程9：ThreadLocal源码剖析"><a href="#Java多线程9：ThreadLocal源码剖析" class="headerlink" title="Java多线程9：ThreadLocal源码剖析"></a><a href="https://www.cnblogs.com/xrq730/p/4854813.html" target="_blank" rel="external">Java多线程9：ThreadLocal源码剖析</a></h4><h4 id="Java多线程10：ThreadLocal的作用及使用"><a href="#Java多线程10：ThreadLocal的作用及使用" class="headerlink" title="Java多线程10：ThreadLocal的作用及使用"></a><a href="https://www.cnblogs.com/xrq730/p/4854820.html" target="_blank" rel="external">Java多线程10：ThreadLocal的作用及使用</a></h4><h4 id="Java多线程11：ReentrantLock的使用和Condition"><a href="#Java多线程11：ReentrantLock的使用和Condition" class="headerlink" title="Java多线程11：ReentrantLock的使用和Condition"></a><a href="https://www.cnblogs.com/xrq730/p/4855155.html" target="_blank" rel="external">Java多线程11：ReentrantLock的使用和Condition</a></h4><h4 id="Java多线程12：ReentrantLock中的方法"><a href="#Java多线程12：ReentrantLock中的方法" class="headerlink" title="Java多线程12：ReentrantLock中的方法"></a><a href="https://www.cnblogs.com/xrq730/p/4855538.html" target="_blank" rel="external">Java多线程12：ReentrantLock中的方法</a></h4><h4 id="Java多线程13：读写锁和两种同步方式的对比"><a href="#Java多线程13：读写锁和两种同步方式的对比" class="headerlink" title="Java多线程13：读写锁和两种同步方式的对比"></a><a href="https://www.cnblogs.com/xrq730/p/4855631.html" target="_blank" rel="external">Java多线程13：读写锁和两种同步方式的对比</a></h4><h4 id="Java多线程14：生产者-消费者模型"><a href="#Java多线程14：生产者-消费者模型" class="headerlink" title="Java多线程14：生产者/消费者模型"></a><a href="https://www.cnblogs.com/xrq730/p/4855663.html" target="_blank" rel="external">Java多线程14：生产者/消费者模型</a></h4><h4 id="Java多线程15：Queue、BlockingQueue以及利用BlockingQueue实现生产者-消费者模型"><a href="#Java多线程15：Queue、BlockingQueue以及利用BlockingQueue实现生产者-消费者模型" class="headerlink" title="Java多线程15：Queue、BlockingQueue以及利用BlockingQueue实现生产者/消费者模型"></a><a href="https://www.cnblogs.com/xrq730/p/4855857.html" target="_blank" rel="external">Java多线程15：Queue、BlockingQueue以及利用BlockingQueue实现生产者/消费者模型</a></h4><h4 id="Java多线程16：线程组"><a href="#Java多线程16：线程组" class="headerlink" title="Java多线程16：线程组"></a><a href="https://www.cnblogs.com/xrq730/p/4856072.html" target="_blank" rel="external">Java多线程16：线程组</a></h4><h4 id="Java多线程17：中断机制"><a href="#Java多线程17：中断机制" class="headerlink" title="Java多线程17：中断机制"></a><a href="https://www.cnblogs.com/xrq730/p/4856361.html" target="_blank" rel="external">Java多线程17：中断机制</a></h4><h4 id="Java多线程18：线程池"><a href="#Java多线程18：线程池" class="headerlink" title="Java多线程18：线程池"></a><a href="https://www.cnblogs.com/xrq730/p/4856453.html" target="_blank" rel="external">Java多线程18：线程池</a></h4><h4 id="Java多线程19：定时器Timer"><a href="#Java多线程19：定时器Timer" class="headerlink" title="Java多线程19：定时器Timer"></a><a href="https://www.cnblogs.com/xrq730/p/4856985.html" target="_blank" rel="external">Java多线程19：定时器Timer</a></h4><h4 id="Java多线程20：多线程下的其他组件之CountDownLatch、Semaphore、Exchanger"><a href="#Java多线程20：多线程下的其他组件之CountDownLatch、Semaphore、Exchanger" class="headerlink" title="Java多线程20：多线程下的其他组件之CountDownLatch、Semaphore、Exchanger"></a><a href="https://www.cnblogs.com/xrq730/p/4869671.html" target="_blank" rel="external">Java多线程20：多线程下的其他组件之CountDownLatch、Semaphore、Exchanger</a></h4><h4 id="Java多线程21：多线程下的其他组件之CyclicBarrier、Callable、Future和FutureTask"><a href="#Java多线程21：多线程下的其他组件之CyclicBarrier、Callable、Future和FutureTask" class="headerlink" title="Java多线程21：多线程下的其他组件之CyclicBarrier、Callable、Future和FutureTask"></a><a href="https://www.cnblogs.com/xrq730/p/4872722.html" target="_blank" rel="external">Java多线程21：多线程下的其他组件之CyclicBarrier、Callable、Future和FutureTask</a></h4>
-        
-        <div id="comment-container">
-        </div>
-    </div>
-</div>
-    </div>
-</div>
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
 
 
-<footer class="footer">
-    <ul class="list-inline text-center">
-        
-        
 
-        
-
-        
-
-        
-
-        
-
-    </ul>
-    
-    <p>
-        <span id="busuanzi_container_site_pv">
-            <span id="busuanzi_value_site_pv"></span>PV
-        </span>
-        <span id="busuanzi_container_site_uv">
-            <span id="busuanzi_value_site_uv"></span>UV
-        </span>
-        Created By <a href="https://hexo.io/">Hexo</a>  Theme <a href="https://github.com/aircloud/hexo-theme-aircloud">AirCloud</a></p>
-</footer>
-
-
+   <script type="text/javascript">      
+     var search_path = "search.xml";
+	 if (search_path.length == 0) {
+	 	search_path = "search.xml";
+	 }
+	 var path = "/" + search_path;
+     searchFunc(path, 'local-search-input', 'local-search-result');
+   </script>
 
 
 </body>
-
-<script>
-    // We expose some of the variables needed by the front end
-    window.hexo_search_path = "search.xml"
-    window.hexo_root = "/"
-    window.isPost = true
-</script>
-<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
-<script src="/js/index.js"></script>
-<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
 </html>
